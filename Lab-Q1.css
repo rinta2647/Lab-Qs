@@ -1,0 +1,26 @@
+body{
+	background-color: white;
+}
+.box{
+	border: 2px ridge black;
+	margin: 35px 410px 20px 410px;
+	background-color: floralwhite;
+}
+.textmargin{
+	margin-left: 90px;
+}
+.submargin{
+	margin-left: 80px;
+
+}
+
+input[type=submit] 
+	{
+	background-color: royalblue;
+  	border: double;
+  	border-radius: 6px;
+  	color: white;
+  	padding: 5px 23px;
+  	margin: 4px 2px;
+
+  }

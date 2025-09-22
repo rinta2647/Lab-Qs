@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-Q1-Form</title>
+	<link rel="stylesheet" type="text/css" href="Lab-Q1.css">
+</head>
+<body>
+	<div class="box">
+	<form method="GET">
+		<h1 style="text-align: center;">Form</h1>
+		<div class="textmargin">
+		<label for="fname">Name</label>
+		<input type="text" name="nm" id="fname" placeholder="Full name" maxlength="25" size="25" required><br><br>
+		<label for="mail">Email</label>
+		<input type="text" name="eml" id="mail" value="test@example.com" autofocus required><br><br>
+		<label for="pwsd">Password</label>
+		<input type="password" name="pss" id="pwsd" min="6" max="15" required><br><br>
+		<label for="category">Category</label>
+		<select required>
+			<option>Student</option>
+			<option>Employee</option>
+			<option selected>Freelancer</option>
+		</select> <br><br>
+		<label for="date">Event Date</label>
+		<input type="date" name="dt" id="date" required><br><br>
+		<label for="ticket" required>Tickets</label><br>
+		<input type="radio" name="tk" id="ticket">1 Ticket
+		<input type="radio" name="tk" id="ticket" checked>2 Tickets
+		<input type="radio" name="tk" id="ticket">3 Tickets<br><br>
+		<label for="payment">Payment</label>
+		<input type="checkbox" name="py" id="payment" required>Online Payment<br><br>
+		<label for="notes">Notes</label><br>
+		<textarea rows="4" cols="30" value="" placeholder="Type your notes here..."></textarea><br><br>
+		<div class="submargin">
+		<input type="submit" name="sb" value="Submit" required><br><br>
+	</div>
+	</div>
+	</form>
+</div>
+</body>
+</html>
